@@ -127,4 +127,8 @@ MTLTextureSwizzleChannels MTLTextureSwizzleChannelsMake(MTLTextureSwizzle red, M
 
 @end
 
+MTL_EXPORT
+@interface MTLTextureDescriptor : NSObject
+@end
+
 #endif // _METAL_MTLTEXTURE_H_

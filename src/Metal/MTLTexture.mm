@@ -234,3 +234,11 @@ MTL_UNSUPPORTED_CLASS
 #endif
 
 @end
+
+@implementation MTLTextureDescriptor
+#if DARLING_METAL_ENABLED
+// TODO: methods
+#else
+MTL_UNSUPPORTED_CLASS
+#endif
+@end
